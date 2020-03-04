@@ -2,7 +2,7 @@
 # Experience widget.
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = true# Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
 title = "Experience"
@@ -17,28 +17,38 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
-[[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
-  """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Visiting Scholar"
+  company = "Peking University"
+  company_url = "https://bme.gatech.edu/bme/faculty/Qiushi-Ren"
+  location = "Beijing, China"
+  date_start = "2017-06-01"
+  date_end = "2017-12-15"
+#  description = """."""
+
+[[experience]]
+  title = "Research Assistant"
+  company = "Siemens Healthineers"
+  company_url = "https://www.siemens-healthineers.com/"
+  location = "Forchheim, Germany"
+  date_start = "2016-03-01"
+  date_end = "2018-03-31"
+#  description = """
+#  Responsibilities include:
+
+#  * Analysing
+#  * Modelling
+#  * Deploying
+#    """
+
+[[experience]]
+  title = "Research Assistant"
+  company = "FAU Erlangen-Nuremberg"
+  company_url = "http://www.optik.uni-erlangen.de/en/osmin/homepage.html"
+  location = "Erlangen, Germany"
+  date_start = "2012-07-01"
+  date_end = "2015-10-31"
+#  description = """."""
 
 +++

@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
 title = "Projects"
-subtitle = ""
+subtitle = "A list of projects"
 
 [content]
   # Page type to display. E.g. project.
@@ -21,13 +21,13 @@ subtitle = ""
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
   filter_default = 0
   
-  # [[content.filter_button]]
-  #   name = "All"
-  #   tag = "*"
+ #  [[content.filter_button]]
+#     name = "All"
+#     tag = "*"
   
-  # [[content.filter_button]]
-  #   name = "Deep Learning"
-  #   tag = "Deep Learning"
+#  [[content.filter_button]]
+#     name = "Deep Learning"
+#     tag = "Deep Learning"
   
   # [[content.filter_button]]
   #   name = "Other"
@@ -35,7 +35,7 @@ subtitle = ""
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "2"
+  columns = "3"
 
   # Toggle between the various page layout types.
   #   1 = List
@@ -54,7 +54,7 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
   
   # Background color.
-  # color = "navy"
+  #color = "navy"
   
   # Background gradient.
   # gradient_start = "DeepSkyBlue"
@@ -74,4 +74,3 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
